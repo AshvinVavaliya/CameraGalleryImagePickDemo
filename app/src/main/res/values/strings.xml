@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CameraGalleryImagePickDemo</string>
+    <string name="camera">Camera</string>
+    <string name="single_image_gallery">Single Image - Gallery</string>
+    <string name="multi_image_gallery">Multi Image - Gallery</string>
+
+    <string name="take_phot">Take Photo</string>
+    <string name="permission_camera_denied">Camera permission denied.</string>
+    <string name="all_files_jpg_zip_ppt_doc_pdf_etc">All Files( jpg,zip,ppt,doc,pdf…etc )</string>
+    <string name="permission_write_denied">Read/Write permission denied!</string>
+
+    <string name="currentDir">Current Dir</string>
+    <string name="fileSize">File Size</string>
+</resources>

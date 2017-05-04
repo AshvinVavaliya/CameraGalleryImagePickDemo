@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="image.simform.demo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/camera"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_gallery_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/single_image_gallery"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_gallery_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multi_image_gallery"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_Any_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_files_jpg_zip_ppt_doc_pdf_etc"
+        android:textAllCaps="false"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/fl_selectedPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
